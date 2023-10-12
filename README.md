@@ -35,3 +35,22 @@ Tests that could have prevented these failures:
 - BDD scenarios is found [here](./Katas/src/main/resources/BowlingGame.feature)
 - Actual tests is found [here](./Katas/src/test/java/org/example/BowlingGame.java)
 
+## 3 Investigation of tools
+
+### 3.1 JUnit 5
+- @Tag
+    - This annotation is used for giving your tests individually or an entire class a tag. This could be "integration" or "unit" to indicate what type of test it is. This also allows filtering later.
+- @Disabled
+    - This can also be applied to an individual test or a class. It tells JUnit that it shouldn't execute whatever is disabled.
+- @RepeatedTest
+    - This indicates that the test should be repeated X amount of times.
+- @BeforeEach, @AfterEach
+    - These annotations are used to tell JUnit what it should do before and after each test. This is useful when doing unit tests to make sure your tests are not affecting eachother.
+- @BeforeAll, @AfterAll
+    - 
+- @DisplayName
+- @Nested
+- assumeFalse, assumeTrue
+
+### 3.2 Mocking frameworks
+
