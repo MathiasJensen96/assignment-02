@@ -29,4 +29,9 @@ Tests that could have prevented these failures:
 
 - BDD scenarios is found [here](./Katas/src/main/resources/StringUtility.feature)
 - Actual tests is found [here](./Katas/src/test/java/org/example/StringUtility.java)
-    
+
+### 2.2 Bowling Game
+
+- BDD scenarios is found [here](./Katas/src/main/resources/BowlingGame.feature)
+- Actual tests is found [here](./Katas/src/test/java/org/example/BowlingGame.java)
+
