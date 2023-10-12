@@ -37,3 +37,7 @@
         Regulatory Compliance Testing
 
 2 Two katas
+
+    2.1 String Utility
+
+    
