@@ -57,3 +57,20 @@ Tests that could have prevented these failures:
 
 ### 3.2 Mocking frameworks
 
+I have chosen Mockito and PowerMock as my mocking frameworks.
+
+- What are their similarities?
+    - Both allow mocking of objects for classes and interfaces.
+    - Integrates with JUnit
+    - Method invocation verification
+    - Argument matching
+ 
+- What are their differences?
+    - Type of mocking: Mockito is used for lightweight and PowerMock is used for more specialized scenarios.
+    - Complexity: Given that PowerMock is generally more complex it also requires more setup and conf.
+    - Size and Dependencies: Again due to PowerMock being more complex etc. it also has more extensive dependencies.
+ 
+- Which one would you prefer, if any, and why?
+    - Personally i haven't worked with either of the two, so i don't really have a preferance. But i assume i would choose the mocking framework that best suited my needs.
+
+
