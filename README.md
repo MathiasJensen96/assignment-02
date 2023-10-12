@@ -47,9 +47,11 @@ Tests that could have prevented these failures:
 - @BeforeEach, @AfterEach
     - These annotations are used to tell JUnit what it should do before and after each test. This is useful when doing unit tests to make sure your tests are not affecting eachother.
 - @BeforeAll, @AfterAll
-    - 
+    - These annotations mark the setup that needs to be made before any of the tests are run. This could be useful in cases where the test needs the same setup for every test, however none of the tests can alter the things the setup does because this would affect the following tests.
 - @DisplayName
+    - This allows you to give your test method or class a custom name. This can be useful due to the possibility of spaces, special characters etc.
 - @Nested
+    - 
 - assumeFalse, assumeTrue
 
 ### 3.2 Mocking frameworks
