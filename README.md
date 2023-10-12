@@ -27,6 +27,6 @@ Tests that could have prevented these failures:
 
 ### 2.1 String Utility
 
-- BDD scenarios is found [here](./Katas/src/StringUtility.feature)
+- BDD scenarios is found [here](./Katas/src/main/StringUtility.feature)
 - Actual tests is found [here](./Katas/test/StringUtility.java)
     
