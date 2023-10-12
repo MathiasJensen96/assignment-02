@@ -51,8 +51,9 @@ Tests that could have prevented these failures:
 - @DisplayName
     - This allows you to give your test method or class a custom name. This can be useful due to the possibility of spaces, special characters etc.
 - @Nested
-    - 
+    - This annotation is used to make multiple test classes inside a test class. This could be useful if your program had some "inner" functionality and some "outer". The @Nested annotation would allow for this.
 - assumeFalse, assumeTrue
+    - These are used to determin wether or not a test should be run, based on if a given statement is true or false. This could have use in the event that the test requires some specific data that is not always given. Here we could make it so that, in the event that the required data is present(true), then the test should be performed.
 
 ### 3.2 Mocking frameworks
 
